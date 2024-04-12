@@ -1,0 +1,64 @@
+body{
+    font-family: "Rubik Doodle Shadow", system-ui;
+    letter-spacing: 0.3px;
+    background: url(background.jpg);
+    background-size: cover;
+}
+
+.heading{
+    font-size: 30px;
+    width: 100%;
+    margin-top: 0;
+    color: black;
+}
+
+.note{
+    font-size: 20px;
+}
+
+.div_speed{
+    float: left;
+}
+
+#diskspeedimg{
+    width: 200px;
+    border-radius: 100px;
+}
+
+.speed{
+    font-size: 25px;
+    margin: 15px;
+}
+
+.volume{
+    font-size: 25px;
+    margin: 15px;
+}
+
+.div_volume{
+    float: right;
+}
+
+#diskvolimg{
+    width: 200px;
+    border-radius: 100px;
+}
+
+.play{
+    width: 110px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+canvas{
+    margin-top: 25px !important;
+    border-radius: 100px;
+    box-shadow: 10px 10px 10px whitesmoke;
+}
+
+.stop{
+    margin-left: 20px;
+    width: 110px;
+    font-size: 30px;
+    margin-top: 10px;
+}
