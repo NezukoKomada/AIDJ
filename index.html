@@ -22,16 +22,16 @@
 	    <span class="note">NOTE - Move your left-hand wrist up and down for increasing and decreasing the volume. 
         Move your right-hand wrist up and down for increasing and decreasing the speed</span>
   	</h3>
-    <button class="btn btn-success play" onclick="playmusic()">PLAY</button><span><button class="btn btn-success stop" onclick="stopmusic()">STOP</button></span>
+    <button class="btn btn-success play" onclick="play()">PLAY</button><span><button class="btn btn-success stop" onclick="stopmusic()">STOP</button></span>
     <div class="div_speed">
       <img src="disk.gif" id="diskspeedimg" >
       <br>
-      <h3 class="btn btn-danger speed">Speed</h3>
+      <h3 class="btn btn-danger" id="speed">Speed is </h3>
     </div>
     <div class="div_volume">
       <img src="disk.gif" id="diskvolimg" style="width: 200px; margin-left: 50px;">
       <br>
-      <h3 class="btn btn-danger volume">Volume is </h3>
+      <h3 class="btn btn-danger" id="volume">Volume is </h3>
     </div>
 	<br><br>
 </center>
